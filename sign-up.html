@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up - LinkCean</title>
+    <meta charset="UTF-8">
+    <!--Character Encoding Setting-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Import CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--Media Responsive-->
+    <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="styles.css">
+
+
+</head>
+
+<header>
+    <div class="container">
+        <!--Icon-->
+        <div id="logo">
+            <a href="index.html"><img src="Assets/satellite.png" alt="">
+                <h1>LinkCean</h1>
+            </a>
+
+        </div>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+
+    <h2>Sign Up to <br>Awesomeness</h2>
+    <h3>Here is a few thing we need to know about you before proceed</h3>
+
+    <form class="info-form">
+        <div class="form">
+            <!-- Name -->
+            <label for="name">Name</label>
+            <input type="text" name="fname" placeholder="Firstname">
+            <input type="text" name="lname" placeholder="Last Name">
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="example@email.com">
+            <!-- Password -->
+            <label for="Password">Password</label>
+            <input type="password" name="password" placeholder="At least 8 characters">
+            <!-- Comfirm Password -->
+            <label for="Password">Comfirm Password</label>
+            <input type="com-password" name="com-password" placeholder="Re-enter your passwords">
+        </div>
+    </form>
+
+    <form>
+        <button formaction="sign-up 2.html">Next</button>
+    </form>
+    <!-- Validate JS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+</body>
+
+</html>

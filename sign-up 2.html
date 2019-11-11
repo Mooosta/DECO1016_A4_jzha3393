@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LinkCean - Sign Up</title>
+    <meta charset="UTF-8">
+    <!--Character Encoding Setting-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Import CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--Media Responsive-->
+    <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="styles.css">
+
+    <title>Sign Up - LinkCean</title>
+</head>
+
+
+
+<header>
+    <div class="container">
+        <!--Icon-->
+        <div id="logo">
+            <a href="index.html"><img src="Assets/satellite.png" alt="">
+                <h1>LinkCean</h1>
+            </a>
+
+        </div>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+
+
+    <h2>A bit more <br>about you</h2>
+    <h3>Here is a few thing we need to know about you before proceed</h3>
+
+    <form class="info-form">
+        <!-- Date of Birth -->
+        <label for="DOB">Date of Birth</label>
+        <input type="date" id="DOB" name="DOB" placeholder="Firstname">
+        <!-- Billing Address -->
+        <label for="Address">Billing Address</label>
+        <input type="text" id="address" name="address" placeholder="house/unit number">
+        <input type="text" id="address" name="address" placeholder="Street Name">
+        <!-- State -->
+        <label for="State">State</label>
+        <select id="state" name="state">
+            <option value="">[State]</option>
+            <option value="AF">NSW</option>
+            <option value="AX">VIC</option>
+            <option value="AL">NT</option>
+            <option value="DZ">WA</option>
+            <option value="DZ">TAS</option>
+            <option value="DZ">SA</option>
+        </select>
+    </form>
+
+    <!-- Previous Page -->
+    <form class="previous">
+        <button class="previous" formaction="sign-up.html">Previous</button>
+    </form>
+
+    <!-- Next Page -->
+    <form class="next">
+        <button class="next" formaction="sign-up 3.html">Next</button>
+    </form>
+</body>
+
+<!-- Validate JS Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+<!-- ADD THE SCRIPT.JS FILE HERE -->
+<script type="text/javascript" src="script.js"></script>
+
+</html>
